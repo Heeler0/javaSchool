@@ -1,6 +1,7 @@
 package ee.taltech;
 
 import ee.taltech.game.Character;
+import ee.taltech.game.Weapon;
 
 public class ReadyPlayerOne {
 
@@ -23,6 +24,9 @@ public class ReadyPlayerOne {
 
 
         Character playerOne = new Character("Greeteke");
+
+        Weapon weapon = new Weapon("Pulgakomm", 1);
+        playerOne.setWeapon(weapon);
 
 
     }
