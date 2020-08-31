@@ -23,7 +23,5 @@ public class ReadyPlayerTwo {
         // 10 Fight and win! Print out that you won. [pull, commit and push]
 
         Character playerTwo = new Character("Hansukene");
-
-
     }
 }
