@@ -22,7 +22,7 @@ public class ReadyPlayerOne {
         // 10 Fight and win! Print out that you won. [pull, commit and push]
 
 
-        Character playerOne = new Character("Greeteke");
+        Character playerOne = new Character("Greetekene");
 
 
     }
