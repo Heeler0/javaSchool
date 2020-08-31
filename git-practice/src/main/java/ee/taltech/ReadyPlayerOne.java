@@ -1,7 +1,10 @@
 package ee.taltech;
 
 import ee.taltech.game.Character;
+import ee.taltech.game.Monster;
 import ee.taltech.game.Weapon;
+
+import java.util.ArrayList;
 
 public class ReadyPlayerOne {
 
@@ -28,6 +31,19 @@ public class ReadyPlayerOne {
         Weapon weapon = new Weapon("Pulgakomm", 1);
         playerOne.setWeapon(weapon);
 
+        ArrayList<Monster> monsters = new ArrayList<>();
+
+        Monster kits = new Monster("Kits");
+        Monster lammas = new Monster("Lammas");
+        Monster tiiger = new Monster("Tiiger");
+
+        monsters.add(kits);
+        monsters.add(lammas);
+        monsters.add(tiiger);
+
+        kits.setStrength(222);
+        lammas.setStrength(222);
+        tiiger.setStrength(222);
 
     }
 
