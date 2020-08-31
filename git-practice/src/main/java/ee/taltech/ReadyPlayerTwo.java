@@ -1,5 +1,7 @@
 package ee.taltech;
 
+import ee.taltech.game.Character;
+
 public class ReadyPlayerTwo {
 
     public static void main(String[] args) {
@@ -19,5 +21,9 @@ public class ReadyPlayerTwo {
         // You also need trainStrength method in Character.java, however this is done by your teammate.
         // [pull, commit and push]
         // 10 Fight and win! Print out that you won. [pull, commit and push]
+
+        Character playerTwo = new Character("Hansukene");
+
+
     }
 }
