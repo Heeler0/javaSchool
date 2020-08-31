@@ -1,7 +1,10 @@
 package ee.taltech;
 
 import ee.taltech.game.Character;
+import ee.taltech.game.Monster;
 import ee.taltech.game.Weapon;
+
+import java.util.ArrayList;
 
 public class ReadyPlayerTwo {
 
@@ -26,5 +29,14 @@ public class ReadyPlayerTwo {
         Character playerTwo = new Character("Hansukene");
         Weapon epicWeapon = new Weapon("Maiused",1);
         playerTwo.setWeapon(epicWeapon);
+        ArrayList<Monster> monsters = new ArrayList<>();
+        Monster monster1 = new Monster("Hunt");
+        monsters.add(monster1);
+        Monster monster2 = new Monster("Karu");
+        monsters.add(monster2);
+        Monster monster3 = new Monster("Koer");
+        monsters.add(monster3);
+
+
     }
 }
