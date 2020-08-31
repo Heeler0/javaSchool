@@ -1,6 +1,7 @@
 package ee.taltech;
 
 import ee.taltech.game.Character;
+import ee.taltech.game.Weapon;
 
 public class ReadyPlayerTwo {
 
@@ -23,5 +24,7 @@ public class ReadyPlayerTwo {
         // 10 Fight and win! Print out that you won. [pull, commit and push]
 
         Character playerTwo = new Character("Hansukene");
+        Weapon epicWeapon = new Weapon("Maiused",1);
+        playerTwo.setWeapon(epicWeapon);
     }
 }
