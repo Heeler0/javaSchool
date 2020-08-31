@@ -24,7 +24,6 @@ public class ReadyPlayerOne {
 
         Character playerOne = new Character("Greetekene");
 
-
     }
 
 }
